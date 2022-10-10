@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from './Banner';
+// import Banner from './Banner';
 
 const Header = () => {
 	return (
@@ -50,7 +50,7 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
-			<Banner></Banner>
+			{/* <Banner></Banner> */}
 		</div>
 
 		// <nav>
