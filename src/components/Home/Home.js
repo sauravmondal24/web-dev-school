@@ -1,19 +1,23 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-// import CourseList from '../CourseList/CourseList';
+import CourseList from '../CourseList/CourseList';
+import './Home.css';
 import Banner from '../Header/Banner';
 
 const Home = () => {
-	const courseData = useLoaderData();
-	console.log(courseData.length);
+	const { data } = useLoaderData();
 
 	return (
 		<div>
 			<Banner></Banner>
-			<h3>This is Home page </h3>
-			{/* {courseData.map((courseItem) => (
-				<CourseList courseItem={courseItem}></CourseList>
-			))} */}
+			<h2 className="pt-5 fs-1 border-bottom border-3 w-25 text-center m-auto border-success pb-2 text-primary fw-bold">
+				Course List
+			</h2>
+			<div className="itemList container">
+				{data.map((topics) => (
+					<CourseList topics={topics}></CourseList>
+				))}
+			</div>
 		</div>
 	);
 };

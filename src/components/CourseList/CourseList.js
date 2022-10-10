@@ -1,13 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './CourseList.css';
+// import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
-const CourseList = ({ courseItem }) => {
-	// console.log(courseItem);
-	const { name } = courseItem;
+const CourseList = ({ topics }) => {
+	const { id, name, logo } = topics;
 
 	return (
-		<div>
-			<h2>Name {name}</h2>
-			<h3>this is course list page</h3>
+		<div className="py-5">
+			<div
+				style={{ backgroundColor: 'rgba(180, 255, 230, 0.521)' }}
+				class="card courseItems shadow"
+			>
+				<img src={logo} class="card-img-top" alt="..." />
+				<div class="card-body">
+					<h3 class="card-title">{name}</h3>
+
+					<Link to={`/topics/${id}`} href="#" className="btn btn-primary">
+						Start Practice <FontAwesomeIcon icon={faRightLong} />
+					</Link>
+				</div>
+			</div>
 		</div>
 	);
 };
