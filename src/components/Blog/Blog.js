@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function Blog() {
 	return (
 		<div className="container py-5">
-			<h1 className="py-3 text-bold text-primary">
+			<h1 className="mb-5 fs-1 border-bottom border-3 w-50 text-center m-auto border-success pb-2 text-primary fw-bold">
 				Frequently Asked Questions
 			</h1>
 			<Accordion>
