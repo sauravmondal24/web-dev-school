@@ -22,7 +22,7 @@ const Question = ({ questionList }) => {
 	return (
 		<div
 			style={{ backgroundColor: 'rgba(180, 255, 230, 0.521)' }}
-			className="card my-4 w-50 m-auto p-3 shadow "
+			className="card my-4  m-auto p-3 shadow questionList"
 		>
 			<div className="d-flex justify-content-between align-items-center">
 				<h4> {question} </h4>

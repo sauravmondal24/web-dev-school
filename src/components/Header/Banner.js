@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Banner.css';
-// import img from '../../../public/img/'
 import react from '../../img/react.jpg';
 import JavaScript from '../../img/javascript.jpg';
 import css from '../../img/css.jpg';
@@ -15,7 +14,7 @@ function Banner() {
 					src={react}
 					alt="First slide"
 				/>
-				<Carousel.Caption className="sliderInfo">
+				<Carousel.Caption className="sliderInfo text-start">
 					<h2 className="title">
 						A JavaScript library for building user interfaces
 					</h2>
@@ -33,7 +32,7 @@ function Banner() {
 					alt="Second slide"
 				/>
 
-				<Carousel.Caption className="sliderInfo">
+				<Carousel.Caption className="sliderInfo text-start">
 					<h2 className="title">
 						JavaScript is the world's most popular programming language
 					</h2>
@@ -47,7 +46,7 @@ function Banner() {
 			<Carousel.Item className="bannerPic">
 				<img className="d-block w-100 img-fluid" src={css} alt="Third slide" />
 
-				<Carousel.Caption className="sliderInfo">
+				<Carousel.Caption className="sliderInfo text-start">
 					<h3 className="title">CSS stands for Cascading Style Sheets</h3>
 					<p className="subTitle">
 						Cascading Style Sheets (CSS) is a stylesheet language used to
@@ -59,7 +58,7 @@ function Banner() {
 			<Carousel.Item className="bannerPic">
 				<img className="d-block w-100 img-fluid" src={git} alt="Third slide" />
 
-				<Carousel.Caption className="sliderInfo">
+				<Carousel.Caption className="sliderInfo text-start">
 					<h3 className="title">
 						Git is a distributed, open-source version control system (VCS)
 					</h3>

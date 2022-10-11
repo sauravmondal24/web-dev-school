@@ -1,3 +1,9 @@
 .courseItems {
 	width: 16rem;
 }
+
+@media only screen and (max-width: 688px) {
+	.courseItems {
+		width: 100%;
+	}
+}

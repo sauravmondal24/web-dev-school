@@ -4,6 +4,9 @@
 	grid-gap: 5px;
 	/* background-color: aquamarine; */
 }
+.questionList {
+	width: 50%;
+}
 .green {
 	background-color: green;
 }
@@ -12,4 +15,16 @@
 }
 .questionItem {
 	background-color: aqua;
+}
+
+@media only screen and (max-width: 688px) {
+	.answerItem {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 5px;
+		/* background-color: aquamarine; */
+	}
+	.questionList {
+		width: 100% !important;
+	}
 }

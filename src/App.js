@@ -21,11 +21,6 @@ function App() {
 					element: <Home></Home>
 				},
 				{
-					path: '/topic',
-					element: <Topics></Topics>
-				},
-
-				{
 					path: '/topics/:topicId',
 					loader: async ({ params }) => {
 						return fetch(

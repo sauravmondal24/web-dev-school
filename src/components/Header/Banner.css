@@ -9,6 +9,7 @@
 
 .sliderInfo {
 	margin-bottom: 150px;
+	width: 75%;
 }
 .title {
 	font-size: 60px;
@@ -19,4 +20,31 @@
 	font-size: 25px;
 	font-weight: normal;
 	color: rgb(255, 255, 255);
+}
+
+/* Mobile device responsive */
+@media only screen and (max-width: 688px) {
+	.bannerPic img {
+		height: 65vh;
+		width: 100%;
+	}
+	.title {
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.subTitle {
+		font-size: 16px;
+	}
+	.sliderInfo {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	.sliderInfo h3,
+	.sliderInfo p {
+		text-align: center !important;
+	}
+	.carousel-caption {
+		right: 5% !important;
+		left: 5% !important;
+	}
 }

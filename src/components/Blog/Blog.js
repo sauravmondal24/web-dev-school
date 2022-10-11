@@ -6,7 +6,7 @@ function Blog() {
 			<h1 className="mb-5 fs-1 border-bottom border-3 w-50 text-center m-auto border-success pb-2 text-primary fw-bold">
 				Frequently Asked Questions
 			</h1>
-			<Accordion>
+			<Accordion className="text-start">
 				<Accordion.Item eventKey="0">
 					<Accordion.Header>
 						<h4>what is the purpose of the react-router?</h4>

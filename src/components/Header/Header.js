@@ -5,36 +5,36 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg py-3 bg-light">
-				<div className="container">
-					<button
-						className="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarTogglerDemo03"
-						aria-controls="navbarTogglerDemo03"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span className="navbar-toggler-icon"></span>
-					</button>
+			<nav class="navbar navbar-expand-lg bg-light py-3">
+				<div class="container">
 					<Link className="navbar-brand fw-bolder fs-3 text-primary" to="/">
 						WEB DEV SCHOOL
 					</Link>
-					<div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-						<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-							<li className="nav-item">
-								<Link to="/" className="nav-link fw-bold fs-5 fs-5" href="#">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo02"
+						aria-controls="navbarTogglerDemo02"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<Link to="/" class="nav-link fw-bold fs-5" aria-current="page">
 									Topics
 								</Link>
 							</li>
-							<li className="nav-item">
-								<Link to="/statistics" className="nav-link fw-bold fs-5">
+							<li class="nav-item">
+								<Link to="/statistics" class="nav-link fw-bold fs-5">
 									Statistics
 								</Link>
 							</li>
-							<li className="nav-item">
-								<Link to="/blog" className="nav-link fw-bold fs-5">
+							<li class="nav-item">
+								<Link to="/blog" class="nav-link fw-bold fs-5">
 									Blog
 								</Link>
 							</li>
@@ -42,15 +42,7 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
-			{/* <Banner></Banner> */}
 		</div>
-
-		// <nav>
-		// 	<Link to="/"></Link>
-		// 	<Link to="/topics">Topics</Link>
-		// 	<Link to="/statistics">Statistics</Link>
-		// 	<Link to="/blog">Blog</Link>
-		// </nav>
 	);
 };
 

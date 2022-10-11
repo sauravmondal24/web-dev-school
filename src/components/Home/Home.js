@@ -3,6 +3,8 @@ import { useLoaderData } from 'react-router-dom';
 import CourseList from '../CourseList/CourseList';
 import './Home.css';
 import Banner from '../Header/Banner';
+import Hero from '../Hero/Hero';
+import Students from '../Students/Students';
 
 const Home = () => {
 	const { data } = useLoaderData();
@@ -10,7 +12,7 @@ const Home = () => {
 	return (
 		<div>
 			<Banner></Banner>
-			<h2 className="pt-5 fs-1 border-bottom border-3 w-25 text-center m-auto border-success pb-2 text-primary fw-bold">
+			<h2 className="pt-5 fs-1 border-bottom border-3 w-50 text-center m-auto border-success pb-2 text-primary fw-bold">
 				Course List
 			</h2>
 			<div className="itemList container">
@@ -18,6 +20,8 @@ const Home = () => {
 					<CourseList topics={topics}></CourseList>
 				))}
 			</div>
+			<Hero></Hero>
+			<Students></Students>
 		</div>
 	);
 };

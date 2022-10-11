@@ -2,13 +2,14 @@ import React from 'react';
 import Ratio from 'react-bootstrap/Ratio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
+import './Hero.css';
 
 const Hero = () => {
 	return (
 		<div className="bg-light">
 			<div className="container py-5 my-5 ">
 				<div className="row">
-					<div className="col-md-6 text-start pt-5">
+					<div className="col-md-6 text-start pt-md-5">
 						<h1 className="fs-1 fw-bold">
 							Our mission is to equip churches to fulfill the Great Commission.
 						</h1>
@@ -25,7 +26,10 @@ const Hero = () => {
 						</button>
 					</div>
 					<div className="col-md-6">
-						<div className="rounded" style={{ width: 560, height: 'auto' }}>
+						<div
+							className="rounded youtubeVideo"
+							style={{ width: 560, height: 'auto' }}
+						>
 							<Ratio aspectRatio="4x3">
 								<embed
 									type="image/svg+xml"
