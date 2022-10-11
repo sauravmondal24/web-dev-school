@@ -10,14 +10,10 @@ const Question = ({ questionList }) => {
 	let wrong;
 	const getRightAnswer = (item) => {
 		if (correctAnswer === item) {
-			right = alert('This is a right answer');
-			// right = `green`;
-			// console.log('This is a right answer');
+			right = alert('That is Correct answer');
 		} else {
-			wrong = alert('This is a wrong answer');
-			// console.log('this is a wrong answer');
+			wrong = alert('This is wrong answer');
 		}
-		// {correctAnswer===item}
 	};
 
 	const rightAnsHandelar = () => {

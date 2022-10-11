@@ -1,4 +1,22 @@
 .bannerPic img {
 	height: 95vh;
 	width: 100%;
+	/* overflow: hidden; */
+	background: black;
+	/* object-fit: cover; */
+	opacity: 0.9;
+}
+
+.sliderInfo {
+	margin-bottom: 150px;
+}
+.title {
+	font-size: 60px;
+	color: rgb(12, 0, 80);
+	font-weight: 800;
+}
+.subTitle {
+	font-size: 25px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
 }

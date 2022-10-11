@@ -1,0 +1,9 @@
+.studentCard {
+	background-color: rgba(0, 13, 190, 0.719);
+	width: 33%;
+	margin: 20px;
+}
+.studentCard:hover {
+	background-color: rgb(0, 0, 138);
+	transition: 1s;
+}

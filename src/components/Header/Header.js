@@ -18,33 +18,23 @@ const Header = () => {
 					>
 						<span className="navbar-toggler-icon"></span>
 					</button>
-					<Link className="navbar-brand fw-bolder" to="/">
+					<Link className="navbar-brand fw-bolder fs-3 text-primary" to="/">
 						WEB DEV SCHOOL
 					</Link>
 					<div className="collapse navbar-collapse" id="navbarTogglerDemo03">
 						<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li className="nav-item">
-								<Link
-									to="/"
-									className="nav-link fw-bold"
-									aria-current="page"
-									href="#"
-								>
-									Home
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link to="/topics" className="nav-link fw-bold" href="#">
+								<Link to="/" className="nav-link fw-bold fs-5 fs-5" href="#">
 									Topics
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to="/statistics" className="nav-link fw-bold" href="#">
+								<Link to="/statistics" className="nav-link fw-bold fs-5">
 									Statistics
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to="/blog" className="nav-link fw-bold" href="#">
+								<Link to="/blog" className="nav-link fw-bold fs-5">
 									Blog
 								</Link>
 							</li>
