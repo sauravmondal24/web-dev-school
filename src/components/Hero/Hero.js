@@ -3,6 +3,7 @@ import Ratio from 'react-bootstrap/Ratio';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 import './Hero.css';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 	return (
@@ -18,12 +19,16 @@ const Hero = () => {
 							can be more readily available to people all over the world through
 							Free Church Websites’ church website builder.
 						</p>
-						<button className="btn text-success">
+						<Link
+							style={{ textDecoration: 'none' }}
+							to="/blog"
+							className=" text-success "
+						>
 							MORE ABOUT US
 							<span>
 								<FontAwesomeIcon icon={faRightLong} />
 							</span>
-						</button>
+						</Link>
 					</div>
 					<div className="col-md-6">
 						<div
