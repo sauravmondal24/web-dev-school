@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const CourseList = ({ topics }) => {
-	const { id, name, logo } = topics;
+	const { id, name, logo, total } = topics;
 
 	return (
 		<div className="py-4 courseList">
@@ -16,6 +16,7 @@ const CourseList = ({ topics }) => {
 				<img src={logo} class="card-img-top" alt="" />
 				<div class="card-body">
 					<h3 class="card-title">{name}</h3>
+					<p>Total Quiz {total}</p>
 
 					<Link to={`/topics/${id}`} href="#" className="btn btn-primary">
 						Start Practice <FontAwesomeIcon icon={faRightLong} />

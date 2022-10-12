@@ -2,7 +2,6 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 5px;
-	/* background-color: aquamarine; */
 }
 .questionList {
 	width: 50%;
@@ -22,7 +21,6 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 5px;
-		/* background-color: aquamarine; */
 	}
 	.questionList {
 		width: 100% !important;

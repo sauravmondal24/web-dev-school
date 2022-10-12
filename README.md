@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# WEB-DEV-SCHOOL
+
+Live website Link (https://web-dev-school-assignment.netlify.app).
+
+## Website all features are given below
+
+# Home Page
+
+1. Header section
+2. Banner slider
+3. Course List
+4. Hero Section
+5. Subscribe Section
+6. Footer
+
+# Statistics Page
+
+1. LineChart
+
+# Blog
+
+1.Frequently Asked Questions
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
