@@ -1,0 +1,9 @@
+.subscribeInput {
+	width: 50%;
+}
+
+@media only screen and (max-width: 688px) {
+	.subscribeInput {
+		width: 100%;
+	}
+}

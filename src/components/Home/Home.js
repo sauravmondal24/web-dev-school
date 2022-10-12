@@ -5,6 +5,7 @@ import './Home.css';
 import Banner from '../Header/Banner';
 import Hero from '../Hero/Hero';
 import Students from '../Students/Students';
+import Subscribe from '../Subscribe/Subscribe';
 
 const Home = () => {
 	const { data } = useLoaderData();
@@ -22,6 +23,7 @@ const Home = () => {
 			</div>
 			<Hero></Hero>
 			<Students></Students>
+			<Subscribe></Subscribe>
 		</div>
 	);
 };
