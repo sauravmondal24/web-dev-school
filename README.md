@@ -4,7 +4,7 @@ Live website Link (https://web-dev-school-assignment.netlify.app).
 
 ## Website all features are given below
 
-# Home Page
+## Home Page
 
 1. Header section
 2. Banner slider
@@ -13,11 +13,11 @@ Live website Link (https://web-dev-school-assignment.netlify.app).
 5. Subscribe Section
 6. Footer
 
-# Statistics Page
+## Statistics Page
 
 1. LineChart
 
-# Blog
+## Blog
 
 1.Frequently Asked Questions
 

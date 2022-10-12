@@ -9,7 +9,7 @@ const Question = ({ questionList }) => {
 	const { question, options, correctAnswer } = questionList;
 
 	const notify = () => {
-		toast.info(correctAnswer, {
+		toast.success(correctAnswer, {
 			position: 'top-center',
 			autoClose: 3000,
 			hideProgressBar: false,
@@ -25,9 +25,9 @@ const Question = ({ questionList }) => {
 
 	const getRightAnswer = (item) => {
 		if (correctAnswer === item) {
-			right = alert('That is Correct answer');
+			right = alert('That is a Correct answer');
 		} else {
-			wrong = alert('This is wrong answer');
+			wrong = alert('This is a wrong answer');
 		}
 	};
 
